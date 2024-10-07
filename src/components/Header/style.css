@@ -1,0 +1,120 @@
+.header-background{
+    width: 100%;
+    height: 80px;
+    background: #ffff;
+  }
+  
+  
+  
+  header .logo{
+    text-decoration: none !important;
+  }
+  
+  header .logo img{
+    width: 45px;
+  }
+  
+  header .logo span{
+    color: #1a1a1a;
+    font-weight: 800;
+    font-size: 24px;
+  }
+  header.header-background {
+    background: #ffff; /* White background */
+}
+
+header button.rounded-circle{
+min-width:40px !important;
+height: 40px !important;
+width: 40px !important;
+
+background: #f0f5ff !important;
+}
+
+header button.rounded-circle:hover svg{
+    color: #0858f7 !important;
+    font-size: 18px !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+header button.rounded-circle svg{
+    color: #292929 !important;
+    font-size: 22px !important;
+}
+
+.myAcc{
+    text-align:left !important;
+    color: #0858f7 !important;
+    text-transform: capitalize !important;
+}
+
+ .userImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0858f7;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+ .userImg .rounded-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+
+}
+
+ .userImg .rounded-circle img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.myAcc .userInfo h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #292929;
+    margin-bottom: 0px;
+}
+
+.myAcc .userInfo {
+    padding-left: 10px;
+}
+
+.myAcc .userInfo p{
+    margin-top:0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #292929;
+    opacity: 0.7;
+}
+  
+#account-menu li{
+    font-size: 14px !important;
+    padding: 12px 15px !important;
+}
+
+#account-menu li svg{
+    font-size: 20px !important;
+    
+}
+
+
+#notification .MuiPaper-elevation{
+    right: 250px !important;
+    width: 300px !important ;
+    left: auto !important;
+}
+
+.dropdown_list h4{
+    font-size: 20px;
+    font-weight: 600;
+}
