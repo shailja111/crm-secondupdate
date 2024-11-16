@@ -1,0 +1,21 @@
+.modal-header .close {
+    /* float: right; */
+    /* padding: 1rem 1rem; */
+    margin: -29px;
+    position: absolute;
+    /* left: 396px; */
+    /* right: 250px; */
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+.modal-content {
+    width: 850px;
+    margin-left: -306px;
+    margin-top: 43px;
+    display: table-cell;
+}
+.modal-body {
+    border: none !important;
+    margin: 32px;
+}
